@@ -1,2 +1,4 @@
 /.idea/*
 /desigPatterns.iml
+/out/production/desigPatterns/*/*.class
+/out/*/*/*.class
