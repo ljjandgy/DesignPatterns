@@ -2,6 +2,7 @@ package duck;
 
 /**
  * duck的超类，包含公共行为及属性，子类继承后可直接使用
+ * 鸭子类主要用于策略模式的讲解
  */
 public abstract class Duck {
     private String sex;
