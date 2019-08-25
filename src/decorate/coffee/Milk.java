@@ -1,5 +1,8 @@
 package decorate.coffee;
 
+/**
+ * 牛奶调料
+ */
 public class Milk extends CondimentDecorator {
     private Beverage beverage;
 
