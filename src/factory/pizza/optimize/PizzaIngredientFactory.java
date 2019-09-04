@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * @ClassName PizzaIngredientFactory
- * @Description 原料工厂抽象类
+ * @Description 原料工厂接口，用于生产产品族（一系列的产品）
  * @Author ljj
  * @Version V2.0.0
  * @Date 2019-09-02 20:44:41
