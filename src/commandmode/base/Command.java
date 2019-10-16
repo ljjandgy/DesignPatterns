@@ -1,7 +1,7 @@
 package commandmode.base;
 
 /**
- * 命令对象接口
+ * 命令对象接口，所有命令对象的公共接口，其execute方法能触发receiver的动作，但是是有Invoker来触发
  */
 public interface Command {
     /**

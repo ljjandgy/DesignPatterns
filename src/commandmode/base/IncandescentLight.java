@@ -1,7 +1,7 @@
 package commandmode.base;
 
 /**
- * 普通的白炽灯
+ * 普通的白炽灯（receiver对象，负责被命令对象操作（也就是在Invoker调用命令的execute（）方法后实际进行动作的对象））
  */
 public class IncandescentLight implements Light{
     @Override

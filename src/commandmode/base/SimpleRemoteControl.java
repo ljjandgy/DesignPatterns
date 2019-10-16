@@ -1,5 +1,8 @@
 package commandmode.base;
 
+/**
+ * Invoker对象，持有命令对象，并负责触发命令（执行命令的execute（）方法）
+ */
 public class SimpleRemoteControl {
     private Command slot;
 
