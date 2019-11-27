@@ -8,6 +8,8 @@ public abstract class CaffeineBeverage {
     /**
      * 现在由父类定义标准流程，子类除了继承功能流程项以外，还需要重写需要自定义的流程
      * 加final只是为了防止子类重写该方法
+     * 该方法为模板方法，是算法模板，只不过算法的每一步都是由自身或者其子类实现的
+     * 模板方法会控制算法，算是限制了子类的行为，也可以说是提供了标准的行为
      */
     public final void prepareRecipe(){
         boilWater();
