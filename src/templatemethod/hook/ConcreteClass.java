@@ -7,11 +7,11 @@ public class ConcreteClass extends AbstractClass {
     //修改模板方法中的某个步骤
     @Override
     void primitiveOperation1() {
-
+        //修改步骤
     }
 
     @Override
-    void primitiveOpearation2() {
-
+    void primitiveOperation2() {
+        //修改步骤
     }
 }
