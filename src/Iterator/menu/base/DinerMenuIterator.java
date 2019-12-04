@@ -2,6 +2,7 @@ package Iterator.menu.base;
 
 /**
  * 遍历午餐菜单的迭代器,用于让业务代码遍历自身使用
+ * 其封装了遍历动作，让存在差异的遍历行为在业务类中可以统一
  */
 public class DinerMenuIterator implements Iterator {
     private MenuItem[] items;
